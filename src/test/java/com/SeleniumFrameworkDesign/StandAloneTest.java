@@ -43,11 +43,23 @@ public class StandAloneTest {
 			String listName=listcart.get(i).getText();
 			if(product.contains(listName)) {
 				System.out.println("One product added 5");
-				
+				System.out.println("One product added 6");
+				System.out.println("One product added 7");
+
 				//List<WebElement> list2 =driver.findElements(By.xpath("//button[text() ='ADD TO CART']"));
 	            //   list2.get(i).click();
 	               List<WebElement> cartbutton=	driver.findElements(By.xpath("//button[text() =' Add To Cart']"));
 				cartbutton.get(i).click();
+				if(product.contains(listName)) {
+					System.out.println("One product added 5");
+					System.out.println("One product added 6");
+					System.out.println("One product added 7");
+
+					//List<WebElement> list2 =driver.findElements(By.xpath("//button[text() ='ADD TO CART']"));
+		            //   list2.get(i).click();
+		               List<WebElement> cartbutton1=	driver.findElements(By.xpath("//button[text() =' Add To Cart']"));
+					cartbutton.get(i).click();
+
 				//.card-body button:last-of-type"
 				System.out.println("One product added");
 
