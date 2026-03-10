@@ -45,6 +45,7 @@ public class StandAloneTest {
 				System.out.println("One product added 5");
 				System.out.println("One product added 6");
 				System.out.println("One product added 7");
+				System.out.println("One product added 5");
 
 				//List<WebElement> list2 =driver.findElements(By.xpath("//button[text() ='ADD TO CART']"));
 	            //   list2.get(i).click();
