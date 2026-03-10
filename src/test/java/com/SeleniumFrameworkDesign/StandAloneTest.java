@@ -37,6 +37,8 @@ public class StandAloneTest {
 		{
 			System.out.println("One product added 3");
 			System.out.println("One product added 4");
+			System.out.println("One product added 3");
+			System.out.println("One product added 3");
 
 			String listName=listcart.get(i).getText();
 			if(product.contains(listName)) {
